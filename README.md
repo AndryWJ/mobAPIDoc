@@ -21,31 +21,31 @@
 #### Подробней:
 * **Пользователь:**
     - GET
-        - [user](https://github.com/AndryWJ/wp_rest_api_auth2#user) - `Получение пользователя`
-        - [user_list](https://github.com/AndryWJ/wp_rest_api_auth2#user_list) - `Получение пользователей`
-        - [user_courses](https://github.com/AndryWJ/wp_rest_api_auth2#user_courses) - `Получение доступных курсов пользователя`
-        - [user_curators](https://github.com/AndryWJ/wp_rest_api_auth2#user_curators) - `Получение активных курраторств у пользователя`
+        - [user](https://github.com/AndryWJ/mobAPIDoc#user) - `Получение пользователя`
+        - [user_list](https://github.com/AndryWJ/mobAPIDoc#user_list) - `Получение пользователей`
+        - [user_courses](https://github.com/AndryWJ/mobAPIDoc#user_courses) - `Получение доступных курсов пользователя`
+        - [user_curators](https://github.com/AndryWJ/mobAPIDoc#user_curators) - `Получение активных курраторств у пользователя`
     - POST
-        - [user_register](https://github.com/AndryWJ/wp_rest_api_auth2#user_register) - `Регистрация пользователя`
+        - [user_register](https://github.com/AndryWJ/mobAPIDoc#user_register) - `Регистрация пользователя`
     - PUT
-        - [user_change](https://github.com/AndryWJ/wp_rest_api_auth2#user_change) - `Изминение данных пользователя`
+        - [user_change](https://github.com/AndryWJ/mobAPIDoc#user_change) - `Изминение данных пользователя`
     - AUTH2 (Как и админский профиль для рабоыт с API можно авторизировать и обычных пользователей)
 * **Преподаватели:**
     - GET
-        - [teacher_list](https://github.com/AndryWJ/wp_rest_api_auth2#teacher_list) - `Получение преподавателей`
+        - [teacher_list](https://github.com/AndryWJ/mobAPIDoc#teacher_list) - `Получение преподавателей`
 * **Категории курса:**
     - GET
-        - [category_list](https://github.com/AndryWJ/wp_rest_api_auth2#category_list) - `Получение категорий курса`
+        - [category_list](https://github.com/AndryWJ/mobAPIDoc#category_list) - `Получение категорий курса`
 * **Курс:**
     - GET
-        - [course](https://github.com/AndryWJ/wp_rest_api_auth2#course) - `Получение одного курса`
-        - [course_list](https://github.com/AndryWJ/wp_rest_api_auth2#course_list) - `Получение курсов`
+        - [course](https://github.com/AndryWJ/mobAPIDoc#course) - `Получение одного курса`
+        - [course_list](https://github.com/AndryWJ/mobAPIDoc#course_list) - `Получение курсов`
     - PUT
-        - [set_answer](https://github.com/AndryWJ/wp_rest_api_auth2#set_answer) - `Запись ответа по заданию`
-        - [set_watched](https://github.com/AndryWJ/wp_rest_api_auth2#set_watched) - `Установка прогреса по просмотрам видео`
+        - [set_answer](https://github.com/AndryWJ/mobAPIDoc#set_answer) - `Запись ответа по заданию`
+        - [set_watched](https://github.com/AndryWJ/mobAPIDoc#set_watched) - `Установка прогреса по просмотрам видео`
 * **Платежи:**
     - GET
-        - [pay_list](https://github.com/AndryWJ/wp_rest_api_auth2#pay_list) - `Получить платежи пользователя`
+        - [pay_list](https://github.com/AndryWJ/mobAPIDoc#pay_list) - `Получить платежи пользователя`
         - promocode - `Получить промокоды`
     - POST
         - pay_link - `Создать и возвратить ссылку на оплату курсов, передавать надо данные пользователя и курсы которые он выбрал`
