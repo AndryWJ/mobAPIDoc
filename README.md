@@ -1,27 +1,12 @@
-# Авторизация 
-Авторизация выполняетья в 2 этапа.
-1. Получение кода авторизации
-2. Получение токена по коду авторизации
-3. Обновление токена авторизации (токен живет 1 час)
-
-**Инструкции**:
-
-1, 2 - https://wp-oauth.com/docs/general/grant-types/authorization-code/<br>
-3 - Обновление токена: https://wp-oauth.com/docs/general/grant-types/refresh-token/
-
-PS: В инструкции после завершения 2х этапов предлагают вариант тестирования запроса к API.
-Вместо него использовать:
-
-method : POST
-url: https://develop.80-ballov.ru/oauth/test
-
-vars: `access_token`: [токен доступа]
+# Авторизация
+1. Получение токена пользователя https://wp-oauth.com/docs/general/grant-types/user-credentials/
+2. Обновление токена https://wp-oauth.com/docs/general/grant-types/refresh-token/
 
 ####  Пример запроса:
 
 https://80-ballov.ru/oauth/test?access_token=lycngl8s64pvquz8lve614icw5fqxij7rwr9ehwk
 
-Пример ответа:
+Пример ответа :
 
     {
         id :  11 ,
