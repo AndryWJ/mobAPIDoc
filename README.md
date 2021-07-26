@@ -79,6 +79,35 @@ URL: https:exemple_domain/oauth/**[rout_name]**
 | service |null | Идентификатор соц сети, возможные значения `Google` `Facebook` `VK`
 | token | null | Токен доступа из соц. сети
 
+Успех
+
+    {
+        "access_token": {
+            "access_token": "wuoh6l3h3ssvv05owcpkq61dtjvouvnhfhdjufko",
+            "expires_in": 3600,
+            "token_type": "bearer",
+            "scope": "basic",
+            "refresh_token": "il5ze1zidfgqza93iesjioohtylhvryi9u1farx9"
+        },
+        "user_data": {
+            "ID": "160905",
+            "user_login": "adminadminovich",
+            "user_pass": "$djsadjaldaldjaskldjaslkwiwiiwiwii",
+            "user_nicename": "adminadminovich",
+            "user_email": "_andry__@test.net",
+            "user_url": "",
+            "user_registered": "2021-02-23 06:13:03",
+            "user_activation_key": "",
+            "user_status": "0",
+            "display_name": "adminadminovich"
+        }
+    }
+
+Неудача
+| переменная | описание  |
+| ---------- |:---------:|
+| `error_message`    | Текст ошибки |
+
 ## reset_password
 **ПРИНИМАЕТ:**
 
