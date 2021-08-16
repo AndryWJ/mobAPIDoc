@@ -20,9 +20,9 @@
 # Роуты авторизации
 URL: https:exemple_domain/oauth/**[rout_name]**
 
-- [token](https://github.com/AndryWJ/mobAPIDoc#token) - `Получение токена по логину и паролю | получение токена по рефреш-токену`
-- [auth_social](https://github.com/AndryWJ/mobAPIDoc#auth_social) - `Получение токена по токену из соц. сетей`
-- [reset_password](https://github.com/AndryWJ/mobAPIDoc#reset_password) - `Восстановление пароля`
+- [token](https://github.com/mobAPIDoc/wp_rest_api_auth2#token) - `Получение токена по логину и паролю | получение токена по рефреш-токену`
+- [auth_social](https://github.com/mobAPIDoc/wp_rest_api_auth2#auth_social) - `Получение токена по токену из соц. сетей`
+- [reset_password](https://github.com/mobAPIDoc/wp_rest_api_auth2#reset_password) - `Восстановление пароля`
 
 ## token
 Получение токена по логину и паролю или его обновление
@@ -147,40 +147,40 @@ URL: https:exemple_domain/oauth/**[rout_name]**
 #### Подробней:
 * **Пользователь:**
     - GET
-        - [user](https://github.com/AndryWJ/mobAPIDoc#user) - `Получение пользователя`
-        - [user](https://github.com/AndryWJ/mobAPIDoc#user) - `Получение пользователя`
-        - [user_list](https://github.com/AndryWJ/mobAPIDoc#user_list) - `Получение пользователей`
-        - [user_courses](https://github.com/AndryWJ/mobAPIDoc#user_courses) - `Получение доступных курсов пользователя`
-        - [user_curators](https://github.com/AndryWJ/mobAPIDoc#user_curators) - `Получение активных курраторств у пользователя`
+        - [user](https://github.com/mobAPIDoc/wp_rest_api_auth2#user) - `Получение пользователя`
+        - [user](https://github.com/mobAPIDoc/wp_rest_api_auth2#user) - `Получение пользователя`
+        - [user_list](https://github.com/mobAPIDoc/wp_rest_api_auth2#user_list) - `Получение пользователей`
+        - [user_courses](https://github.com/mobAPIDoc/wp_rest_api_auth2#user_courses) - `Получение доступных курсов пользователя`
+        - [user_curators](https://github.com/mobAPIDoc/wp_rest_api_auth2#user_curators) - `Получение активных курраторств у пользователя`
     - POST
-        - [user_register](https://github.com/AndryWJ/mobAPIDoc#user_register) - `Регистрация пользователя`
+        - [user_register](https://github.com/mobAPIDoc/wp_rest_api_auth2#user_register) - `Регистрация пользователя`
     - PUT
-        - [user_change](https://github.com/AndryWJ/mobAPIDoc#user_change) - `Изминение данных пользователя`
+        - [user_change](https://github.com/mobAPIDoc/wp_rest_api_auth2#user_change) - `Изминение данных пользователя`
     - AUTH2 (Как и админский профиль для рабоыт с API можно авторизировать и обычных пользователей)
 * **Преподаватели:**
     - GET
-        - [teacher_list](https://github.com/AndryWJ/mobAPIDoc#teacher_list) - `Получение преподавателей`
+        - [teacher_list](https://github.com/mobAPIDoc/wp_rest_api_auth2#teacher_list) - `Получение преподавателей`
 * **Категории курса:**
     - GET
-        - [category_list](https://github.com/AndryWJ/mobAPIDoc#category_list) - `Получение категорий курса`
+        - [category_list](https://github.com/mobAPIDoc/wp_rest_api_auth2#category_list) - `Получение категорий курса`
 * **Курс:**
     - GET
-        - [course](https://github.com/AndryWJ/mobAPIDoc#course) - `Получение одного курса`
-        - [course_list](https://github.com/AndryWJ/mobAPIDoc#course_list) - `Получение курсов`
+        - [course](https://github.com/mobAPIDoc/wp_rest_api_auth2#course) - `Получение одного курса`
+        - [course_list](https://github.com/mobAPIDoc/wp_rest_api_auth2#course_list) - `Получение курсов`
     - PUT
-        - [set_answer](https://github.com/AndryWJ/mobAPIDoc#set_answer) - `Запись ответа по заданию`
-        - [set_watched](https://github.com/AndryWJ/mobAPIDoc#set_watched) - `Установка прогреса по просмотрам видео`
+        - [set_answer](https://github.com/mobAPIDoc/wp_rest_api_auth2#set_answer) - `Запись ответа по заданию`
+        - [set_watched](https://github.com/mobAPIDoc/wp_rest_api_auth2#set_watched) - `Установка прогреса по просмотрам видео`
 * **Платежи:**
     - GET
-        - [pay_list](https://github.com/AndryWJ/mobAPIDoc#pay_list) - `Получить платежи пользователя`
-        - [order_variants](https://github.com/AndryWJ/mobAPIDoc#order_variants) - `Курсы доступные для покупки`
-        - [promocode](https://github.com/AndryWJ/mobAPIDoc#promocode) - `Получить промокоды`
+        - [pay_list](https://github.com/mobAPIDoc/wp_rest_api_auth2#pay_list) - `Получить платежи пользователя`
+        - [order_variants](https://github.com/mobAPIDoc/wp_rest_api_auth2#order_variants) - `Курсы доступные для покупки`
+        - [promocode](https://github.com/mobAPIDoc/wp_rest_api_auth2#promocode) - `Получить промокоды`
     - POST
-        - [pay_link](https://github.com/AndryWJ/mobAPIDoc#pay_link) - `Создать и возвратить ссылку на оплату курсов, передавать надо данные пользователя и курсы которые он выбрал`
+        - [pay_link](https://github.com/mobAPIDoc/wp_rest_api_auth2#pay_link) - `Создать и возвратить ссылку на оплату курсов, передавать надо данные пользователя и курсы которые он выбрал`
 * **Прогресс:**
     - GET
-        - [get_rating](https://github.com/AndryWJ/mobAPIDoc#get_rating) - `Получение рейтинга (по умолчанию все, либо параметром указать за какой из 3х периодов получить рейтинг)`
-        - [get_progress_user](https://github.com/AndryWJ/mobAPIDoc#get_progress_user) - `Получить прогресс пользователя (передавать ID категории и ID пользователя, еще не смотрел как переделали сайдбар и по чему его можно получать)`
+        - [get_rating](https://github.com/mobAPIDoc/wp_rest_api_auth2#get_rating) - `Получение рейтинга (по умолчанию все, либо параметром указать за какой из 3х периодов получить рейтинг)`
+        - [get_progress_user](https://github.com/mobAPIDoc/wp_rest_api_auth2#get_progress_user) - `Получить прогресс пользователя (передавать ID категории и ID пользователя, еще не смотрел как переделали сайдбар и по чему его можно получать)`
 
 
 
@@ -273,9 +273,28 @@ URL: https:exemple_domain/oauth/**[rout_name]**
 
 Успех
 
-| переменная | описание  |
-| ---------- |:---------:|
-| `user_id`    | id пользователя|
+
+    {
+        "access_token": {
+            "access_token": "wuoh6l3h3ssvv05owcpkq61dtjvouvnhfhdjufko",
+            "expires_in": 3600,
+            "token_type": "bearer",
+            "scope": "basic",
+            "refresh_token": "il5ze1zidfgqza93iesjioohtylhvryi9u1farx9"
+        },
+        "user_data": {
+            "ID": "160905",
+            "user_login": "adminadminovich",
+            "user_pass": "$djsadjaldaldjaskldjaslkwiwiiwiwii",
+            "user_nicename": "adminadminovich",
+            "user_email": "_andry__@test.net",
+            "user_url": "",
+            "user_registered": "2021-02-23 06:13:03",
+            "user_activation_key": "",
+            "user_status": "0",
+            "display_name": "adminadminovich"
+        }
+    }
 
 Неудача
 
@@ -737,7 +756,7 @@ id курсов у которых активно кураторство и ти�
 
 | переменные |  по умолчанию | описание  |
 | :---------- |:---------:|:---------:|
-| `bay_predmets` *(обязательно)* | null | План который покупает клиент или несколько, планы доступные для покупки можно получить запросом на роут "[order_variants](https://github.com/AndryWJ/mobAPIDoc#order_variants)" например : `['fizika-ege','russian-ege']` |
+| `bay_predmets` *(обязательно)* | null | План который покупает клиент или несколько, планы доступные для покупки можно получить запросом на роут "[order_variants](https://github.com/mobAPIDoc/wp_rest_api_auth2#order_variants)" например : `['fizika-ege','russian-ege']` |
 | `activate_promokod`  | null | Промокод |
 | `kuratorstvo` *(обязательно)* | null | Выбрал ли пользователь кураторство к какому то из планов, доступные значения 'none_pay','recurrent_pay','full_pay' пример : `[ "fizika-ege" => "none_pay", "russian-ege" => "recurrent_pay" ]`  |
 | `name` *(обязательно)* | null |  Имя пользователя |
@@ -865,7 +884,7 @@ id курсов у которых активно кураторство и ти�
 
 | переменная | описание  |
 | ---------- |:---------:|
-| `root_category_id` | id родительской категории(предмета курса) получить можно методом [category_list](https://github.com/AndryWJ/mobAPIDoc#category_list) без указания аргумента `parent`  |
+| `root_category_id` | id родительской категории(предмета курса) получить можно методом [category_list](https://github.com/mobAPIDoc/wp_rest_api_auth2#category_list) без указания аргумента `parent`  |
 
 
 Успех
