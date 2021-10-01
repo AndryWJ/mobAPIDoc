@@ -188,7 +188,7 @@ URL: https:exemple_domain/oauth/**[rout_name]**
         - [pay_list](https://github.com/AndryWJ/mobAPIDoc#pay_list) - `Получить платежи пользователя`
         - [order_variants](https://github.com/AndryWJ/mobAPIDoc#order_variants) - `Курсы доступные для покупки`
         - [promocode](https://github.com/AndryWJ/mobAPIDoc#promocode) - `Получить промокоды`
-        - [check_promocode](https://github.com/AndryWJ/mobAPIDoc#check_promocode) - `Получить промокоды`
+        - [check_promocode](https://github.com/AndryWJ/mobAPIDoc#check_promocode) - `Проверить промокод`
     - POST
         - [pay_link](https://github.com/AndryWJ/mobAPIDoc#pay_link) - `Создать и возвратить ссылку на оплату курсов, передавать надо данные пользователя и курсы которые он выбрал`
 * **Прогресс:**
@@ -942,7 +942,7 @@ id курсов у которых активно кураторство и ти�
         "error_description": "Описание ошибки"
     }
 
-## check_promocode
+## check_promocode - Проверить промокод
 
 **ПРИНИМАЕТ:**
 
