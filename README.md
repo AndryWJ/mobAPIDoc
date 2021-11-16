@@ -399,7 +399,7 @@ URL: https:exemple_domain/oauth/**[rout_name]**
 - `100_balls_text` - Текст стобальников
 - `teacher_100_balls` - Сдал ЕГЭ на 100 баллов `true|false`
 - `teacher_red_diplom` - Окончил ВУЗ с красным дипломом `true|false`
-- `teacher_red_diplom` - Окончил ВУЗ с красным дипломом `true|false`
+- `ege_oge` - Специалист ЕГЭ/ОГЭ
 - `icon` - Иконка
 
 
