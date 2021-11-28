@@ -835,20 +835,16 @@ id курсов у которых активно кураторство и ти�
             "name": "Математика ЕГЭ 2022",
             "examen": "ege",
             "cost": 14990,
-            "cost_podpiska": 1190,
+            "kuratorstvo_cost_full": 8904,
+            "kuratorstvo_cost_recurrent": 1590,
             "link": "/video_page/privetstvie-matematika-egje/"
-        },
-        "all-ege": {
-            "name": "Премиум ЕГЭ 2022<br><strong>(все доступные предметы ЕГЭ)</strong>",
-            "examen": "ege",
-            "cost": 29990,
-            "cost_podpiska": 9990
         },
         "biology-oge": {
             "name": "Биология ОГЭ 2022",
             "examen": "oge",
             "cost": 7990,
-            "cost_podpiska": 1190,
+            "kuratorstvo_cost_full": 8904,
+            "kuratorstvo_cost_recurrent": 1590,
             "link": "/video_page/privetstvie-biologija-ogje/"
         }
     }
